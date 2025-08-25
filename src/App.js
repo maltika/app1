@@ -1,14 +1,15 @@
 import React from "react";
-import { Header,Content,Footer } from "./func-components";
-import Button from "./class-components";
-import {Calculator2} from './calculator'
-import {EventData2} from './event-data'
-import RefsArray from './refs-array'
-import MessageBox from "./state-func";
+import { userContext } from "./context";
+import Header2 from "./context-header2";
+import Content2 from "./context-content2";
 
 function App() {
+  let [user,setUser] = React.useState();
   return(
-    <MessageBox/>
+    <userContext.Provider value={[user,setUser]}>
+    <Header2/>
+    <Content2/>
+    </userContext.Provider>
   ); 
 }
 
