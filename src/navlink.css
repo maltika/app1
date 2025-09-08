@@ -1,0 +1,18 @@
+.nav{
+    background-color: #ced;
+    padding: 10px;
+    text-align: center;
+}
+.menu{
+    color: rgb(65, 119, 255);
+    text-decoration: none;
+    padding: 3px 15px;
+}
+.active_menu{
+    color: rgb(252, 101, 81);
+    background-color: rgb(252, 255, 71);
+    text-decoration: none;
+    padding: 3px 15px;
+    border: 2px solid rgb(244, 116, 36);
+    border-radius: 10px;
+}
