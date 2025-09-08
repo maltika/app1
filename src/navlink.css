@@ -2,6 +2,8 @@
     background-color: #ced;
     padding: 10px;
     text-align: center;
+    margin: 15px;
+    
 }
 .menu{
     color: rgb(65, 119, 255);
@@ -15,4 +17,9 @@
     padding: 3px 15px;
     border: 2px solid rgb(244, 116, 36);
     border-radius: 10px;
+}
+
+.p{
+    padding: 35px;
+    margin: 100px;
 }
