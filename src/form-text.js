@@ -30,7 +30,7 @@ export default function FormText(){
                     <input type="password" id="pswd" name="pswd" maxLength="10" className="form-control form-control-sm" ref={textPswd} onBlur={onBlurPassword}/>
                 </div>
                 <div className="form-group mb-2">
-                    <label htmlFor="pswd"> รหัสผ่าน </label>
+                    <label htmlFor="pswd2"> รหัสผ่าน </label>
                     <input type="password" id="pswd2" className="form-control form-control-sm" ref={textPswd2} onBlur={onBlurPassword2}/>
                 </div>
                 <div className="form-group mb-4">
